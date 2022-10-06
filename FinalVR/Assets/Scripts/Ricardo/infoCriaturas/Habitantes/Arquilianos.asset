@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49027de97e875fa47ad4cee16e7b63e2, type: 3}
+  m_Name: Arquilianos
+  m_EditorClassIdentifier: 
+  raza: Arquilianos
+  peli: MIB I
+  informacionGeneral: "Peque\xF1os humanoides con grandes ojos y cabezas, por su
+    tama\xF1o se esconden en exotrajes que asemejan humanos. El m\xE1s conocido e
+    ellos es Gentle Rosenburg, monarca de los Arquilianos."
+  habilidades: Desconocidas
+  tamano: "Los arquilianos tiene el tama\xF1o de una cabeza humana."
+  aspecto: {fileID: 21300000, guid: 38c8d2cd283e743148fea48cc73431bf, type: 3}
+  pelicula: {fileID: 21300000, guid: a3c00ea9cbcb342e6b3bb288f4b6bdc2, type: 3}

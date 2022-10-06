@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49027de97e875fa47ad4cee16e7b63e2, type: 3}
+  m_Name: Insectos
+  m_EditorClassIdentifier: 
+  raza: Insectos
+  peli: MIB I
+  informacionGeneral: Como alien toma la forma de una cucaracha gigante y en la Tierra
+    la de un granjero, tiene una personalidad hostil y agresiva.
+  habilidades: "Inteligencia superior: Se ha demostrado que a pesar de ser un ser
+    inferior cuenta con una gran inteligencia\r\nSuper fuerza y flexibilidad: Tiene
+    una gran fuerza, sin embargo su forma humana inhibe esta habilidad. Adem\xE1s
+    de poder minimizar su tama\xF1o de forma inc\xF3moda en un humano de la mitad
+    de su tama\xF1o.\r\nTrepar muros: Edgar puede trepar superficies verticales con
+    facilidad.\r\nSuper saltos: Edgar es muy \xE1gil con la capacidad de saltar por
+    los aires.\r\nCamuflaje vocal: Edgar puede alterar considerablemente su voz aunque
+    sigue sonando inhumana.\r\nSecreci\xF3n: Puede secretar una sustancia viscosa
+    que usa como una herramienta restrictiva.\r\nSentido colectivo: Edgar puede sentir
+    la presencia de insectos cercanos.\r\n"
+  tamano: Edgar en su forma real mide aproximadamente 3.6 metros (12 pies)
+  aspecto: {fileID: 21300000, guid: af348f7bcd13044d5b899980f5c3d902, type: 3}
+  pelicula: {fileID: 21300000, guid: a3c00ea9cbcb342e6b3bb288f4b6bdc2, type: 3}
