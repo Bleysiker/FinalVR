@@ -7,7 +7,7 @@ using System;
 public class InfoCriatura : ScriptableObject
 {
     public string raza,peli;
-    [TextArea(3,10)]
+    [TextArea(6,20)]
     public string informacionGeneral, habilidades, tamano;
     public Sprite aspecto,pelicula;
     

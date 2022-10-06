@@ -2033,7 +2033,6 @@ MonoBehaviour:
   criatura:
   - {fileID: 11400000, guid: d831417aff6a44a47b018a62625b7fb0, type: 2}
   - {fileID: 11400000, guid: 7688c59fd8cb7fd42b6d2ddcc2967f8a, type: 2}
-  - {fileID: 11400000, guid: 4033a4760a6e2ae43934dc053b14fba1, type: 2}
   infoPos: 0
   aparicionObjetos: 1
   raza: {fileID: 1302143936}
@@ -2047,6 +2046,7 @@ MonoBehaviour:
   correrDerecha: {fileID: 11400000, guid: 0fcd10af3f742894b9dea3c630f74ca5, type: 2}
   correrIzquierda: {fileID: 11400000, guid: 85ecc78fb705eb94b9c042c8364f1404, type: 2}
   interruptor: {fileID: 11400000, guid: ba6a21fc9c1b43248b0bed8fa9e34006, type: 2}
+  inicialScale: {x: 0, y: 0, z: 0}
 --- !u!114 &1514439552
 MonoBehaviour:
   m_ObjectHideFlags: 0
