@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6d4f50e89a0fd15439412d315b8b7977
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - artefactos: {fileID: 11400000, guid: e515e78b5f833f44a9417f1410f2ffdf, type: 2}
+  - criaturas: {fileID: 11400000, guid: edc185bf2c96ef846ab55d938c11455c, type: 2}
+  - principal: {fileID: 11400000, guid: 8ebc74d3da745f5498287ae1f8448ef1, type: 2}
+  - cartelera: {fileID: 11400000, guid: a297818116c2f574b84f75dca18c413e, type: 2}
+  - entrada: {fileID: 11400000, guid: 89d9de833ef188543b543fbc6e686551, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
