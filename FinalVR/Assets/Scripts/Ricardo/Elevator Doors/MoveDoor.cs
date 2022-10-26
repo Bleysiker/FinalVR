@@ -7,19 +7,16 @@ public class MoveDoor : MonoBehaviour
     [SerializeField] REvents abrir, cerrar;
     [SerializeField] Vector3 cerrada, abierta;
     [SerializeField] float desplazamiento,tiempoDesplazamiento;
-    [SerializeField] bool izq;
+    [SerializeField] bool izq,x,z,inverse;
     void Start()
     {
         cerrada = transform.position;
         abierta = cerrada;
-        if (izq == true)
+        if (inverse == true)
         {
-            abierta.x -= desplazamiento;
+            desplazamiento = desplazamiento * -1;
         }
-        else
-        {
-            abierta.x += desplazamiento;
-        }
+        SeleccionarDesplazamiento();
         Abrir();
         abrir.GEvent += Abrir;
         cerrar.GEvent += Cerrar;
@@ -31,6 +28,31 @@ public class MoveDoor : MonoBehaviour
     void Cerrar()
     {
         transform.LeanMoveLocal(cerrada, tiempoDesplazamiento).setEaseOutQuart();
+    }
+    void SeleccionarDesplazamiento()
+    {
+        if (izq == true) { 
+
+            if (x == true)
+            {
+                abierta.x -= desplazamiento;
+            }
+            else
+            {
+                abierta.z -= desplazamiento;
+            }
+        }
+        else
+        {
+            if (x == true)
+            {
+                abierta.x += desplazamiento;
+            }
+            else
+            {
+                abierta.z += desplazamiento;
+            }
+        }
     }
     private void OnDestroy()
     {
