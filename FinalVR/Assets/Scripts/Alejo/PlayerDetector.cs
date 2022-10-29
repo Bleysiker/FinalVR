@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class PlayerDetector : MonoBehaviour
 {
+    public bool playerInside = false;
+    public ushort playerEntries = 0;
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
-            Debug.Log("Player is inside!!!");
+            playerInside = true;
+            playerEntries++;
         }
     }
 }

@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MIB_disk
+  - MIB1
+  - MIB2
+  - MIB3
+  - MIB4
   layers:
   - Default
   - TransparentFX
