@@ -6,11 +6,12 @@ using TMPro;
 
 public class CreatureInfoManager : MonoBehaviour
 {
-    [SerializeField] InfoCriatura[] criatura;
+    [SerializeField] Sprite[] criatura;
+    [SerializeField] Image info;
     [SerializeField] int infoPos;
     [SerializeField] float aparicionObjetos;
-    [SerializeField] TextMeshProUGUI raza, tamano, general, peli, habilidades;
-    [SerializeField] Image aspecto, pelicula;
+    
+    
     [SerializeField] bool appear;
     [SerializeField] REvents correrDerecha, correrIzquierda, interruptor;
     [SerializeField] Vector3 inicialScale;
@@ -59,13 +60,7 @@ public class CreatureInfoManager : MonoBehaviour
     }
     void AssignInfo()
     {
-        raza.text = criatura[infoPos].raza;
-        tamano.text= criatura[infoPos].tamano;
-        general.text = criatura[infoPos].informacionGeneral;
-        peli.text= criatura[infoPos].peli;
-        habilidades.text = criatura[infoPos].habilidades;
-        aspecto.sprite= criatura[infoPos].aspecto;
-        pelicula.sprite = criatura[infoPos].pelicula;
+        info.sprite = criatura[infoPos];
     }
     private void OnDestroy()
     {
