@@ -8,12 +8,12 @@ public class CrecerBarra : MonoBehaviour
     [SerializeField] Image barra;
     [SerializeField] Color ganancia, perdida;
     [SerializeField] bool recaudo;
-    [SerializeField] float tiempoBarra,tamanofinal;
+    [SerializeField] float tiempoBarra,tamanofinal,porcentajeRecaudo;
     [SerializeField] REvents aparecer;
     [SerializeField] CanvasGroup tituloBarra;
     void Start()
     {
-        transform.transform.LeanScaleX(0.01f, 0f).setEaseInOutQuart();
+        transform.transform.LeanScaleX(0, 0f).setEaseInOutQuart();
         aparecer.GEvent += EstablecerBarra;
         tituloBarra.alpha = 0;
     }
@@ -27,7 +27,7 @@ public class CrecerBarra : MonoBehaviour
     {
         if (recaudo == false)
         {
-            if (transform.transform.localScale.x < 1)
+            if (transform.transform.localScale.x < porcentajeRecaudo)
             {
                 barra.color = perdida;
             }
