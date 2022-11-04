@@ -37,8 +37,8 @@ public class CarteleraGameController : MonoBehaviour
     }
 
     void CheckSnappedGO() {
-        if(snaps[0].isCorrect && snaps[1].isCorrect /*&&
-            snaps[2].isCorrect && snaps[3].isCorrect*/) {
+        if(snaps[0].isCorrect && snaps[1].isCorrect &&
+            snaps[2].isCorrect && snaps[3].isCorrect) {
             OpenDoor();
         }
     }
