@@ -7,6 +7,7 @@ public class CarteleraGameController : MonoBehaviour
 {
     PlayerDetector billboardRoom;
     [SerializeField] Animator door_Anim;
+    [SerializeField] AudioSource audio_instructions;
     readonly string doorState = "isOpen";
     [SerializeField] GameObject [] snapzones;
     CheckSnappedObject [] snaps;
@@ -29,6 +30,7 @@ public class CarteleraGameController : MonoBehaviour
     void CloseDoor() {
         if(billboardRoom.playerInside && billboardRoom.playerEntries == 1) {
             door_Anim.SetBool(doorState, true);
+            audio_instructions.Play();
         }
     }
 
