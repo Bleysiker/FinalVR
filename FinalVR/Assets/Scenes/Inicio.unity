@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 8e781e4ab5d573049abdb5a8c7f7ed81, type: 2}
 --- !u!1001 &66875611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &95915299
 Transform:
@@ -771,7 +771,7 @@ PrefabInstance:
     - target: {fileID: 2764921037832162238, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764921037832162239, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
@@ -2989,7 +2989,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &932105550
 Transform:
@@ -6357,7 +6357,7 @@ GameObject:
   - component: {fileID: 1923815397}
   - component: {fileID: 1923815396}
   - component: {fileID: 1923815395}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: triggerIntro
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -4240,7 +4240,7 @@ PrefabInstance:
     - target: {fileID: 2764921037832162238, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764921037832162239, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
@@ -5029,7 +5029,7 @@ GameObject:
   - component: {fileID: 308993766}
   - component: {fileID: 308993768}
   - component: {fileID: 308993767}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triggers (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8033,9 +8033,8 @@ GameObject:
   m_Component:
   - component: {fileID: 461697383}
   - component: {fileID: 461697386}
-  - component: {fileID: 461697385}
   - component: {fileID: 461697384}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8070,22 +8069,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   evento: {fileID: 11400000, guid: 89d9de833ef188543b543fbc6e686551, type: 2}
   tagObjeto: Player
---- !u!54 &461697385
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461697382}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &461697386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8520,7 +8503,7 @@ PrefabInstance:
         type: 3}
       propertyPath: elements.Array.data[6]
       value: 
-      objectReference: {fileID: 1145688364}
+      objectReference: {fileID: 1669339335}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
 --- !u!1 &472997022
@@ -10166,8 +10149,7 @@ GameObject:
   - component: {fileID: 549691672}
   - component: {fileID: 549691675}
   - component: {fileID: 549691674}
-  - component: {fileID: 549691673}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10188,22 +10170,6 @@ Transform:
   m_Father: {fileID: 683509749}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &549691673
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549691671}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &549691674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12189,7 +12155,7 @@ GameObject:
   - component: {fileID: 646426583}
   - component: {fileID: 646426585}
   - component: {fileID: 646426584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triggers (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13312,9 +13278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 721033710}
   - component: {fileID: 721033713}
-  - component: {fileID: 721033712}
   - component: {fileID: 721033711}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13349,22 +13314,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   evento: {fileID: 11400000, guid: a297818116c2f574b84f75dca18c413e, type: 2}
   tagObjeto: Player
---- !u!54 &721033712
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721033709}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &721033713
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14469,7 +14418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 792452794}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21170,7 +21119,7 @@ GameObject:
   - component: {fileID: 1128025610}
   - component: {fileID: 1128025612}
   - component: {fileID: 1128025611}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triggers (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21573,8 +21522,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.689842, y: 1, z: 0.23500666}
-  m_Center: {x: 0.34399867, y: 0, z: 0.025219623}
+  m_Size: {x: 6.4473133, y: 1.1468737, z: 1.1459868}
+  m_Center: {x: 0.27239043, y: 0.073436916, z: 0.48070967}
 --- !u!23 &1145688368
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27303,7 +27252,7 @@ GameObject:
   - component: {fileID: 1447526967}
   - component: {fileID: 1447526969}
   - component: {fileID: 1447526968}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Triggers (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31532,8 +31481,7 @@ GameObject:
   - component: {fileID: 1669339336}
   - component: {fileID: 1669339339}
   - component: {fileID: 1669339338}
-  - component: {fileID: 1669339337}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31554,22 +31502,6 @@ Transform:
   m_Father: {fileID: 1364925096}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1669339337
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669339335}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1669339338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39249,7 +39181,7 @@ PrefabInstance:
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
@@ -39291,6 +39223,11 @@ PrefabInstance:
       propertyPath: elements.Array.data[7]
       value: 
       objectReference: {fileID: 461697382}
+    - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
+        type: 3}
+      propertyPath: elements.Array.data[8]
+      value: 
+      objectReference: {fileID: 1669339335}
     - target: {fileID: 5539946387736140026, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: m_RootOrder
