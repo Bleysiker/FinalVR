@@ -5,7 +5,7 @@ using UnityEngine;
 public class DisapperButton : MonoBehaviour
 {
     [SerializeField] REvents disappear;
-    [SerializeField] GameObject button;
+    [SerializeField] GameObject[] button;
     void Start()
     {
         disappear.GEvent += Disappear;
@@ -13,6 +13,7 @@ public class DisapperButton : MonoBehaviour
 
     void Disappear()
     {
-        button.SetActive(false);
+        button[0].SetActive(false);
+        button[1].SetActive(false);
     }
 }
