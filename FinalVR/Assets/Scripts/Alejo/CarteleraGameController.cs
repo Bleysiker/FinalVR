@@ -7,10 +7,12 @@ public class CarteleraGameController : MonoBehaviour
 {
     PlayerDetector billboardRoom;
     [SerializeField] Animator door_Anim;
+    [SerializeField] REvents eventAudio;
     [SerializeField] AudioSource audio_instructions;
     readonly string doorState = "isOpen";
     [SerializeField] GameObject [] snapzones;
     CheckSnappedObject [] snaps;
+    bool eventA = false;
     
     private void Awake() {
         billboardRoom = GetComponent<PlayerDetector>();
@@ -18,7 +20,15 @@ public class CarteleraGameController : MonoBehaviour
         for(ushort i = 0; i < snapzones.Length; i++) {
             snaps[i] = snapzones[i].GetComponent<CheckSnappedObject>();
         }
+        eventAudio.GEvent += InstructionsAudio;
         
+    }
+
+    void InstructionsAudio() {
+        if(eventA == false) {
+            audio_instructions.Play();
+            eventA = true;
+        }
     }
 
     void Update()
@@ -30,7 +40,7 @@ public class CarteleraGameController : MonoBehaviour
     void CloseDoor() {
         if(billboardRoom.playerInside && billboardRoom.playerEntries == 1) {
             door_Anim.SetBool(doorState, true);
-            audio_instructions.Play();
+            //audio_instructions.Play();
         }
     }
 
@@ -43,5 +53,9 @@ public class CarteleraGameController : MonoBehaviour
             snaps[2].isCorrect && snaps[3].isCorrect) {
             OpenDoor();
         }
+    }
+
+    private void OnDestroy() {
+        eventAudio.GEvent -= InstructionsAudio;
     }
 }
